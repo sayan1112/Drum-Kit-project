@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Kit — Home</title>
+ <link rel="stylesheet" href="edit.css">
+  </head>
+  <body>
+  
+<audio id="kick" src="https://www.myinstants.com/en/instant/linder-44700/?utm_source=copy&utm_medium=share" preload="auto"></audio>
+<audio id="snare" src="./Assets_sounds_snare.mp3" preload="auto"></audio>
+<audio id="tom1" src="./Assets_sounds_tom-1.mp3" preload="auto"></audio>
+<audio id="tom2" src="./Assets_sounds_tom-2.mp3" preload="auto"></audio>
+<audio id="tom3" src="./Assets_sounds_tom-3.mp3" preload="auto"></audio>
+<audio id="tom4" src="./Assets_sounds_tom-4.mp3" preload="auto"></audio>
+<audio id="crash" src="./Assets_sounds_crash.mp3" preload="auto"></audio>
+
+    <main class="wrap">
+      <section class="card" role="main" aria-labelledby="drumkit-title">
+        <div class="header">
+          <div class="logo" aria-hidden="true">DK</div>
+          <div>
+            <h1 id="drumkit-title">Drum Kit — Build & Play</h1>
+            <p class="lead">
+              Learn how to use drum kit, try the kit, or jump
+              straight into playing with your keyboard or mouse/touch.
+            </p>
+          </div>
+        </div>
+
+        <div class="controls" role="navigation" aria-label="Home actions">
+          <a class="btn" href="kit.html" id="start-btn">Start Playing</a>
+          <button class="btn secondary" id="learn-btn">How it works</button>
+          <a
+            class="btn secondary"
+            href="https://developer.mozilla.org"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Docs & resources</a
+          >
+        </div>
+
+        
+        <div class="demo-keys" aria-hidden="false">
+          <div class="key" data-sound="kick" title="Kick — key: A">
+            <img src="./kick.png" alt="Kick" class="key-img">
+            A
+            <small>Kick</small>
+          </div>
+          <div class="key" data-sound="snare" title="Snare — key: S">
+            <img src="./snare.png" alt="Snare" class="key-img">
+            S
+            <small>Snare</small>
+          </div>
+
+          <div class="key" data-sound="tom1" title="Tom — key: D">
+            <img src="./tom1.png" alt="Tom 1" class="key-img">
+            D
+            <small>Tom1</small>
+          </div>
+          <div class="key" data-sound="tom2" title="Tom — key: F">
+            <img src="./tom2.png" alt="Tom 2" class="key-img">
+            F
+            <small>Tom2</small>
+          </div>
+          <div class="key" data-sound="tom3" title="Tom — key: G">
+            <img src="./tom3.png" alt="Tom 3" class="key-img">
+            G
+            <small>Tom3</small>
+          </div>
+          <div class="key" data-sound="tom4" title="Tom — key: H">
+            <img src="./tom4.png" alt="Tom 4" class="key-img">
+            H
+            <small>Tom4</small>
+          </div>
+          <div class="key" data-sound="crash" title="Crash — key: I">
+            <img src="./crash.png" alt="Crash" class="key-img">
+            I
+            <small>Crash</small>
+          </div>
+        </div>
+
+
+        <p style="margin-top: 18px; color: var(--muted)">
+          Tip: Press the displayed keys (A S D F G H I ) once you open the kit page,
+          or click the pads with your mouse/touch.
+        </p>
+        <footer>
+         Music is ❤️Love..
+        </footer>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
